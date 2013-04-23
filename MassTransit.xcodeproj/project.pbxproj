@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76022F7E1725E11C004D6B9E /* PDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76022F7D1725E11C004D6B9E /* PDFViewController.m */; };
+		76022F801725E197004D6B9E /* metrolink_system_map.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 76022F7F1725E197004D6B9E /* metrolink_system_map.pdf */; };
+		76022F861725EA50004D6B9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76022F851725EA50004D6B9E /* QuartzCore.framework */; };
+		769405A11723A86500B7C2AD /* MetroDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 769405A01723A86500B7C2AD /* MetroDatabase.m */; };
+		769405A41723BBE300B7C2AD /* MetroRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 769405A31723BBE300B7C2AD /* MetroRoute.m */; };
+		769405A617249BBC00B7C2AD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 769405A517249BBC00B7C2AD /* libsqlite3.dylib */; };
+		76DE093B1725EF22008D57C2 /* PDFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE093A1725EF22008D57C2 /* PDFScrollView.m */; };
+		76DE093E1725EFF0008D57C2 /* TiledPDFView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE093D1725EFF0008D57C2 /* TiledPDFView.m */; };
+		76DE094317261767008D57C2 /* OCTADatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE094217261766008D57C2 /* OCTADatabase.m */; };
+		76DE09461726226A008D57C2 /* OCTARoute.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE09451726226A008D57C2 /* OCTARoute.m */; };
 		76FE7966171F6C160023C62C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FE7965171F6C160023C62C /* UIKit.framework */; };
 		76FE7968171F6C160023C62C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FE7967171F6C160023C62C /* Foundation.framework */; };
 		76FE796A171F6C160023C62C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76FE7969171F6C160023C62C /* CoreGraphics.framework */; };
@@ -18,9 +28,31 @@
 		76FE797C171F6C160023C62C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76FE797B171F6C160023C62C /* Default-568h@2x.png */; };
 		76FE797F171F6C160023C62C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76FE797D171F6C160023C62C /* MainStoryboard.storyboard */; };
 		76FE7982171F6C160023C62C /* MassTransitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FE7981171F6C160023C62C /* MassTransitViewController.m */; };
+		76FE798B171F6D3A0023C62C /* Metrolink.sq3 in Resources */ = {isa = PBXBuildFile; fileRef = 76FE7988171F6D080023C62C /* Metrolink.sq3 */; };
+		76FE798C171F6D3A0023C62C /* MTA.sq3 in Resources */ = {isa = PBXBuildFile; fileRef = 76FE7989171F6D080023C62C /* MTA.sq3 */; };
+		76FE798D171F6D3A0023C62C /* OCTA.sq3 in Resources */ = {isa = PBXBuildFile; fileRef = 76FE798A171F6D080023C62C /* OCTA.sq3 */; };
+		76FE7990171F75370023C62C /* MassTransitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FE798F171F75370023C62C /* MassTransitTableViewController.m */; };
+		76FE7993171F756E0023C62C /* RoutesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76FE7992171F756E0023C62C /* RoutesTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76022F7C1725E11C004D6B9E /* PDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFViewController.h; sourceTree = "<group>"; };
+		76022F7D1725E11C004D6B9E /* PDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFViewController.m; sourceTree = "<group>"; };
+		76022F7F1725E197004D6B9E /* metrolink_system_map.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = metrolink_system_map.pdf; sourceTree = "<group>"; };
+		76022F851725EA50004D6B9E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7694059F1723A86500B7C2AD /* MetroDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroDatabase.h; sourceTree = "<group>"; };
+		769405A01723A86500B7C2AD /* MetroDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroDatabase.m; sourceTree = "<group>"; };
+		769405A21723BBE300B7C2AD /* MetroRoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetroRoute.h; sourceTree = "<group>"; };
+		769405A31723BBE300B7C2AD /* MetroRoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetroRoute.m; sourceTree = "<group>"; };
+		769405A517249BBC00B7C2AD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		76DE09391725EF22008D57C2 /* PDFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDFScrollView.h; sourceTree = "<group>"; };
+		76DE093A1725EF22008D57C2 /* PDFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDFScrollView.m; sourceTree = "<group>"; };
+		76DE093C1725EFF0008D57C2 /* TiledPDFView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledPDFView.h; sourceTree = "<group>"; };
+		76DE093D1725EFF0008D57C2 /* TiledPDFView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiledPDFView.m; sourceTree = "<group>"; };
+		76DE094117261766008D57C2 /* OCTADatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTADatabase.h; sourceTree = "<group>"; };
+		76DE094217261766008D57C2 /* OCTADatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTADatabase.m; sourceTree = "<group>"; };
+		76DE09441726226A008D57C2 /* OCTARoute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTARoute.h; sourceTree = "<group>"; };
+		76DE09451726226A008D57C2 /* OCTARoute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTARoute.m; sourceTree = "<group>"; };
 		76FE7962171F6C160023C62C /* MassTransit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MassTransit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76FE7965171F6C160023C62C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		76FE7967171F6C160023C62C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +69,13 @@
 		76FE797E171F6C160023C62C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		76FE7980171F6C160023C62C /* MassTransitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MassTransitViewController.h; sourceTree = "<group>"; };
 		76FE7981171F6C160023C62C /* MassTransitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MassTransitViewController.m; sourceTree = "<group>"; };
+		76FE7988171F6D080023C62C /* Metrolink.sq3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Metrolink.sq3; sourceTree = "<group>"; };
+		76FE7989171F6D080023C62C /* MTA.sq3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MTA.sq3; sourceTree = "<group>"; };
+		76FE798A171F6D080023C62C /* OCTA.sq3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCTA.sq3; sourceTree = "<group>"; };
+		76FE798E171F75370023C62C /* MassTransitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassTransitTableViewController.h; sourceTree = "<group>"; };
+		76FE798F171F75370023C62C /* MassTransitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MassTransitTableViewController.m; sourceTree = "<group>"; };
+		76FE7991171F756E0023C62C /* RoutesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutesTableViewController.h; sourceTree = "<group>"; };
+		76FE7992171F756E0023C62C /* RoutesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutesTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +83,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76022F861725EA50004D6B9E /* QuartzCore.framework in Frameworks */,
+				769405A617249BBC00B7C2AD /* libsqlite3.dylib in Frameworks */,
 				76FE7966171F6C160023C62C /* UIKit.framework in Frameworks */,
 				76FE7968171F6C160023C62C /* Foundation.framework in Frameworks */,
 				76FE796A171F6C160023C62C /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +114,8 @@
 		76FE7964171F6C160023C62C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				769405A517249BBC00B7C2AD /* libsqlite3.dylib */,
+				76022F851725EA50004D6B9E /* QuartzCore.framework */,
 				76FE7965171F6C160023C62C /* UIKit.framework */,
 				76FE7967171F6C160023C62C /* Foundation.framework */,
 				76FE7969171F6C160023C62C /* CoreGraphics.framework */,
@@ -86,8 +129,26 @@
 				76FE7974171F6C160023C62C /* MassTransitAppDelegate.h */,
 				76FE7975171F6C160023C62C /* MassTransitAppDelegate.m */,
 				76FE797D171F6C160023C62C /* MainStoryboard.storyboard */,
+				76FE7991171F756E0023C62C /* RoutesTableViewController.h */,
+				76FE7992171F756E0023C62C /* RoutesTableViewController.m */,
+				76FE798E171F75370023C62C /* MassTransitTableViewController.h */,
+				76FE798F171F75370023C62C /* MassTransitTableViewController.m */,
 				76FE7980171F6C160023C62C /* MassTransitViewController.h */,
 				76FE7981171F6C160023C62C /* MassTransitViewController.m */,
+				7694059F1723A86500B7C2AD /* MetroDatabase.h */,
+				769405A01723A86500B7C2AD /* MetroDatabase.m */,
+				76DE094117261766008D57C2 /* OCTADatabase.h */,
+				76DE094217261766008D57C2 /* OCTADatabase.m */,
+				769405A21723BBE300B7C2AD /* MetroRoute.h */,
+				769405A31723BBE300B7C2AD /* MetroRoute.m */,
+				76DE09441726226A008D57C2 /* OCTARoute.h */,
+				76DE09451726226A008D57C2 /* OCTARoute.m */,
+				76022F7C1725E11C004D6B9E /* PDFViewController.h */,
+				76022F7D1725E11C004D6B9E /* PDFViewController.m */,
+				76DE09391725EF22008D57C2 /* PDFScrollView.h */,
+				76DE093A1725EF22008D57C2 /* PDFScrollView.m */,
+				76DE093C1725EFF0008D57C2 /* TiledPDFView.h */,
+				76DE093D1725EFF0008D57C2 /* TiledPDFView.m */,
 				76FE796C171F6C160023C62C /* Supporting Files */,
 			);
 			path = MassTransit;
@@ -96,6 +157,10 @@
 		76FE796C171F6C160023C62C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				76FE7988171F6D080023C62C /* Metrolink.sq3 */,
+				76022F7F1725E197004D6B9E /* metrolink_system_map.pdf */,
+				76FE7989171F6D080023C62C /* MTA.sq3 */,
+				76FE798A171F6D080023C62C /* OCTA.sq3 */,
 				76FE796D171F6C160023C62C /* MassTransit-Info.plist */,
 				76FE796E171F6C160023C62C /* InfoPlist.strings */,
 				76FE7971171F6C160023C62C /* main.m */,
@@ -159,11 +224,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76FE798B171F6D3A0023C62C /* Metrolink.sq3 in Resources */,
+				76FE798C171F6D3A0023C62C /* MTA.sq3 in Resources */,
+				76FE798D171F6D3A0023C62C /* OCTA.sq3 in Resources */,
 				76FE7970171F6C160023C62C /* InfoPlist.strings in Resources */,
 				76FE7978171F6C160023C62C /* Default.png in Resources */,
 				76FE797A171F6C160023C62C /* Default@2x.png in Resources */,
 				76FE797C171F6C160023C62C /* Default-568h@2x.png in Resources */,
 				76FE797F171F6C160023C62C /* MainStoryboard.storyboard in Resources */,
+				76022F801725E197004D6B9E /* metrolink_system_map.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +246,15 @@
 				76FE7972171F6C160023C62C /* main.m in Sources */,
 				76FE7976171F6C160023C62C /* MassTransitAppDelegate.m in Sources */,
 				76FE7982171F6C160023C62C /* MassTransitViewController.m in Sources */,
+				76FE7990171F75370023C62C /* MassTransitTableViewController.m in Sources */,
+				76FE7993171F756E0023C62C /* RoutesTableViewController.m in Sources */,
+				769405A11723A86500B7C2AD /* MetroDatabase.m in Sources */,
+				769405A41723BBE300B7C2AD /* MetroRoute.m in Sources */,
+				76022F7E1725E11C004D6B9E /* PDFViewController.m in Sources */,
+				76DE093B1725EF22008D57C2 /* PDFScrollView.m in Sources */,
+				76DE093E1725EFF0008D57C2 /* TiledPDFView.m in Sources */,
+				76DE094317261767008D57C2 /* OCTADatabase.m in Sources */,
+				76DE09461726226A008D57C2 /* OCTARoute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +377,7 @@
 				76FE7987171F6C160023C62C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
